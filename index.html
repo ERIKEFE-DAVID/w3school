@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>W3Schools online Web Tutorial</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/images/download-removebg-preview.png"
+    />
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <div class="nav">
+      <div class="first">
+        <img
+          src="/images/download-removebg-preview.png"
+          alt="web3 school image"
+        />
+      </div>
+      <div class="nav2">
+        <p class="menu">
+          Menu
+          <svg
+            class="icn"
+            xmlns="http://www.w3.org/2000/svg"
+            width="16px"
+            height="16px"
+            viewBox="0 0 24 24"
+          >
+            <rect x="0" fill="none" width="24" height="24"></rect>
+            <g><path d="M7 10l5 5 5-5"></path></g>
+          </svg>
+        </p>
+        <p class="tutorial">
+          Tutorials
+          <svg
+            class="icn"
+            xmlns="http://www.w3.org/2000/svg"
+            width="16px"
+            height="16px"
+            viewBox="0 0 24 24"
+          >
+            <rect x="0" fill="none" width="24" height="24"></rect>
+            <g><path d="M7 10l5 5 5-5"></path></g>
+          </svg>
+        </p>
+        <p class="tutorial">
+          Exercises
+          <svg
+            class="icn"
+            xmlns="http://www.w3.org/2000/svg"
+            width="16px"
+            height="16px"
+            viewBox="0 0 24 24"
+          >
+            <rect x="0" fill="none" width="24" height="24"></rect>
+            <g><path d="M7 10l5 5 5-5"></path></g>
+          </svg>
+        </p>
+        <div class="certificates">
+          <p>
+            Certificates
+            <svg
+              class="icn"
+              xmlns="http://www.w3.org/2000/svg"
+              width="16px"
+              height="16px"
+              viewBox="0 0 24 24"
+            >
+              <rect x="0" fill="none" width="24" height="24"></rect>
+              <g><path d="M7 10l5 5 5-5"></path></g>
+            </svg>
+          </p>
+        </div>
+        <p class="tutorial">
+          Services
+          <svg
+            class="icn"
+            xmlns="http://www.w3.org/2000/svg"
+            width="16px"
+            height="16px"
+            viewBox="0 0 24 24"
+          >
+            <rect x="0" fill="none" width="24" height="24"></rect>
+            <g><path d="M7 10l5 5 5-5"></path></g>
+          </svg>
+        </p>
+        <div class="input-wrapper">
+          <input type="text" placeholder="Search..." />
+          <img
+            src="/images/search-svgrepo-com.svg"
+            alt="search icon"
+            class="search"
+          />
+        </div>
+
+        <img src="/images/image.svg" alt="light/dark" class="toggle" />
+        <div class="all-right">
+          <div class="right">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="1em"
+              viewBox="0 0 640 512"
+              aria-hidden="true"
+            >
+              <path
+                d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"
+                fill="currentColor"
+                class="icon"
+              ></path>
+            </svg>
+
+            <span class="spa">Spaces</span>
+          </div>
+          <div class="right">
+            <svg
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 640 512"
+              focusable="false"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M622.34 153.2L343.4 67.5c-15.2-4.67-31.6-4.67-46.79 0L17.66 153.2c-23.54 7.23-23.54 38.36 0 45.59l48.63 14.94c-10.67 13.19-17.23 29.28-17.88 46.9C38.78 266.15 32 276.11 32 288c0 10.78 5.68 19.85 13.86 25.65L20.33 428.53C18.11 438.52 25.71 448 35.94 448h56.11c10.24 0 17.84-9.48 15.62-19.47L82.14 313.65C90.32 307.85 96 298.78 96 288c0-11.57-6.47-21.25-15.66-26.87.76-15.02 8.44-28.3 20.69-36.72L296.6 284.5c9.06 2.78 26.44 6.25 46.79 0l278.95-85.7c23.55-7.24 23.55-38.36 0-45.6zM352.79 315.09c-28.53 8.76-52.84 3.92-65.59 0l-145.02-44.55L128 384c0 35.35 85.96 64 192 64s192-28.65 192-64l-14.18-113.47-145.03 44.56z"
+                class="icon"
+              ></path>
+            </svg>
+
+            <span class="spa">For Teachers</span>
+          </div>
+          <div class="right">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="1em"
+              viewBox="0 0 576 512"
+              aria-hidden="true"
+            >
+              <path
+                d="M24 0C10.7 0 0 10.7 0 24S10.7 48 24 48H69.5c3.8 0 7.1 2.7 7.9 6.5l51.6 271c6.5 34 36.2 58.5 70.7 58.5H488c13.3 0 24-10.7 24-24s-10.7-24-24-24H199.7c-11.5 0-21.4-8.2-23.6-19.5L170.7 288H459.2c32.6 0 61.1-21.8 69.5-53.3l41-152.3C576.6 57 557.4 32 531.1 32h-411C111 12.8 91.6 0 69.5 0H24zM131.1 80H520.7L482.4 222.2c-2.8 10.5-12.3 17.8-23.2 17.8H161.6L131.1 80zM176 512a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm336-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z"
+                fill="currentColor"
+                class="icon"
+              ></path>
+            </svg>
+            <span class="spa">Get Certified</span>
+          </div>
+        </div>
+      </div>
+      <div class="btn">
+        <button class="sign-btn">Sign Up</button>
+        <button class="login-btn">Log in</button>
+      </div>
+    </div>
+
+<!--BELOW NAVBAR-->
+
+    <div id="below">
+      <p class="arc" title="HTML Tutorial">HTML</p>
+      <p class="arc" title="CSS Tutorial">CSS</p>
+      <p class="arc" title="JavaScript Tutorial">JAVASCRIPT</p>
+      <p class="arc" title="SQL Tutorial">SQL</p>
+      <p class="arc" title="Python Tutorial">PYTHON</p>
+      <p class="arc" title="Java Tutorial">JAVA</p>
+      <p class="arc" title="PHP Tutorial">PHP</p>
+      <p class="arc" title="How to">HOW TO</p>
+      <p class="arc" title="W3.CSS Tutorial">W3.CSS</p>
+      <p class="arc" title="C Tutorial">C</p>
+      <p class="arc" title="C++ Tutorial">C++</p>
+      <p class="arc" title="C# Tutorial">C#</p>
+      <p class="arc" title="Bootstrap Tutorial">BOOTSTRAP</p>
+      <p class="arc" title="React Tutorial">REACT</p>
+      <p class="arc" title="MySQL Tutorial">MYSQL</p>
+      <p class="arc" title="JQuery Tutorial">JQUERY</p>
+      <p class="arc" title="Excel Tutorial">EXCEL</p>
+      <p class="arc" title="XML Tutorial">XML</p>
+    </div>
+
+    <!--MAIN PAGE-->
+    <div id="main-page">
+      <div class="learn">
+        <h1>Learn to Code</h1>
+      </div>
+
+      <h3 class="sth">with the world's largest web developer site.</h3>
+
+      <div class="input-class">
+        <input
+          type="text"
+          placeholder="Search our tutorials, e.g.HTML"
+          class="tut"
+        />
+
+        <svg
+          class="search-icon"
+          viewBox="0 0 17 16"
+          fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg"
+          width="16px"
+          height="16px"
+        >
+          <path
+            d="M11.8153 10.3439C12.6061 9.2673 13.0732 7.9382 13.0732 6.5C13.0732 2.91015 10.163 0 6.57318 0C2.98333 0 0.0731812 2.91015 0.0731812 6.5C0.0731812 10.0899 2.98333 13 6.57318 13C8.01176 13 9.3412 12.5327 10.4179 11.7415L10.4171 11.7422C10.4466 11.7822 10.4794 11.8204 10.5156 11.8566L14.3661 15.7071C14.7566 16.0976 15.3898 16.0976 15.7803 15.7071C16.1708 15.3166 16.1708 14.6834 15.7803 14.2929L11.9298 10.4424C11.8936 10.4062 11.8553 10.3734 11.8153 10.3439ZM12.0732 6.5C12.0732 9.53757 9.61075 12 6.57318 12C3.53561 12 1.07318 9.53757 1.07318 6.5C1.07318 3.46243 3.53561 1 6.57318 1C9.61075 1 12.0732 3.46243 12.0732 6.5Z"
+          ></path>
+        </svg>
+      </div>
+      <div class="end">
+        <h3 class="last-text">Not Sure Where To Begin?</h3>
+      </div>
+    </div>
+
+    <!--SECTION-->
+    
+    <div class="section">
+      <div class="sub-section1">
+        <h1>HTML</h1>
+        <p>The language for building web pages</p>
+        <div class="btns">
+          <button class="btn1">Learn HTML</button>
+          <button class="btn2">Video Tutorial</button>
+          <button class="btn3">HTML Reference</button>
+          <button class="btn4">Get Certified</button>
+        </div>
+      </div>
+      <div class="sub-section2">
+        <h3>HTML Example:</h3>
+        <div class="inner">
+          <pre><code><span class="tag-color">&lt;</span><span style="color: grey;">!DOCTYPE html</span><span class="tag-color">&gt;</span></code></pre>
+          <pre><code><span class="tag-color">&lt;</span><span class="text-color">HTML</span><span class="tag-color">&gt;</span></code></pre>
+          <pre><code<span class="tag-color">&lt;</span><span class="text-color">head</span><span class="tag-color">&gt;</span></code></pre>
+          <pre><code><span class="tag-color">&lt;</span><span><span class="text-color">title</span><span class="tag-color">&gt;</span>HTML Tutorial<span class="tag-color">&lt;</span><span class="text-color">/title</span><span class="tag-color">&gt;</span></code></pre>
+          <pre><code><span class="tag-color">&lt;</span><span class="text-color">/head</span><span class="tag-color">&gt;</span></code></pre>
+          <pre><code><span class="tag-color">&lt;</span><span class="text-color">body</span><span class="tag-color">&gt;</span></code></pre><br>
+
+          <pre><code><span class="tag-color">&lt;</span><span class="text-color">h1</span><span class="tag-color">&gt;</span>This is a heading<span class="tag-color">&lt;</spa><span class="text-color">/h1</span><span class="tag-color">&gt;</span></code></pre>
+          <pre><code><span class="tag-color">&lt;</span><span class="text-color">p</span><span class="tag-color">&gt;</span>This is a paragraph.<span class="tag-color">&lt;</span><span class="text-color">/p</span><span class="tag-color">&gt;</span></code></pre><br>
+          <pre><code><span class="tag-color">&lt;</span><span class="text-color">/body</span><span class="tag-color">&gt;</span></code></pre>
+          <pre><code><span class="tag-color">&lt;</span><span class="text-color">/html</span><span class="tag-color">&gt;</span></code></pre>
+        </div>
+        <button class="inner-btn">Try it Yourself</button>
+      </div>
+    </div>
+    <!--SECTION 2-->
+    
+    <div class="section2">
+      <div class="sub-section3">
+        <h1>CSS</h1>
+        <p>The language for styling web pages</p>
+        <div class="btns2">
+          <button class="btn5">Learn CSS</button>
+          <button class="btn6">CSS Reference</button>
+          <button class="btn7">Get Certified</button>
+        </div>
+      </div>
+        <div class="sub-section4">
+           <h3>CSS Example:</h3>
+           <div class="inner2">
+            <pre><code><span class="text-color">body</span><span class="tag-color">{</span></code></pre>
+              <pre><code><span class="text-color2">background-color</span><span class="tag-color">:</span><span class="text-color3">lightblue</span><span class="tag-color">;</span></code></pre>
+              <pre><code><span class="tag-color">}</span></code></pre><br>
+
+              <pre><code><span class="text-color">h1</span><span class="tag-color">{</span></code></pre>
+                <pre><code><span class="text-color2">color</span><span class="tag-color">:</span><span class="text-color3">white<span class="tag-color">;</span></span></code></pre>
+                <pre><code><span class="text-color2">text-align</span><span class="tag-color">:</span><span class="text-color3">center</span><span class="tag-color">;</span></code></pre>
+                <pre><code><span class="tag-color">}</span></code></pre><br>
+
+                <pre><code><span class="text-color">p</span><span class="tag-color">{</span></code></pre>
+                  <pre><code><span class="text-color2">font-family</span><span class="tag-color">:</span><span class="text-color3">verdana</span></code></pre>
+                  <pre><code><span class="tag-color">}</span></code></pre>
+           </div>
+            <button class="inner-btn2">Try it Yourself</button>
+        </div>
+    </div>
+    <!--SECTION 3-->
+  
+    <div class="section3">
+      <div class="sub-section5">
+        <h1>JavaScript</h1>
+        <p>The language for programing web pages</p>
+        <div class="btns3">
+          <button class="btn8">Learn JavaScript</button>
+          <button class="btn9">JavaScript Reference</button>
+          <button class="btn10">Get Certified</button>
+        </div>
+      </div>
+      <div class="sub-section6">
+        <h3>JavaScript Example:</h3>
+        <div class="inner3">
+          <pre><code>
+            <span style="color: grey;">&lt;</span><span style="color: purple;">button</span> <span style="color: green;">onclick</span>=<span style="color: brown;">"myFunction()"</span><span style="color: grey;">&gt;</span>Click Me!
+            <span style="color: grey;">&lt;/</span><span style="color: purple;">button</span><span style="color: grey;">&gt;</span>
+            
+            <span style="color: grey;">&lt;</span><span style="color: purple;">script</span><span style="color: grey;">&gt;</span>
+            <span style="color: blue;">function</span> <span style="color: blue;">myFunction</span>() {
+              <span style="color: blue;">let</span> x = document.getElementById(<span style="color: green;">"demo"</span>);
+              x.style.fontSize = <span style="color: green;">"25px"</span>;
+              x.style.color = <span style="color: green;">"red"</span>;
+            }
+            <span style="color: grey;">&lt;/</span><span style="color: purple;">script</span><span style="color: grey;">&gt;</span>
+            </code></pre>
+            </div>
+              <button class="inner-btn2">Try it Yourself</button>
+      </div>
+     </div>
+    <!--SECTION 4-->
+
+    <div class="section4">
+      <div class="sub-section7">
+        <h1>Python</h1>
+        <p>A popular programming language</p>
+        <div class="btns4">
+          <button class="btn11">Learn Python</button>
+          <button class="btn12">Python Reference</button>
+          <button class="btn13">Get Certified</button>
+        </div>
+        </div>
+        <div class="sub-section8">
+          <h3>Python Example:</h3>
+          <div class="inner4">
+            <pre><code><span class="text-color3">if</span><span  class="text-color"> 5</span> &gt; <span class="text-color">2</span>:</code></pre>
+            <pre><code>Print ( <span style="color: green;">"Five is greater than two!"</span>)</code></pre>
+          </div>
+            <button class="inner-btn2">Try it Yourself</button>
+          </div>
+        </div>
+        <!--SECTION 5-->
+
+        <div class="section5">
+          <div  class="sub-section9">
+            <h1>SQL</h1>
+            <p>A language for accessing databases</p>
+            <div class="btns5">
+              <button class="btn14">Learn SQL</button>
+              <button class="btn15">SQL Reference</button>
+              <button class="btn16">Get Certified</button>
+          </div>
+          </div>
+            <div class="sub-section10">
+              <h3>SQL Example:</h3>
+              <div class="inner5">
+                <pre><code><span class="text-color3">SELECT</span> * <span class="text-color3">FROM</span> Customers</code></pre>
+                <pre><code><span class="text-color3">WHERE</span> Country= <span style="color: green;">'Mexico';</span></code></pre>
+              </div>
+                <button class="inner-btn2">Try it Yourself</button>
+        </div>
+        </div>
+        <div class="grids">
+          <div class="grid1">
+            <h1>PHP</h1>
+            <p>A web server programming language</p>
+            <button class="btnn">learn php</button>
+          </div>
+          <div class="grid2">
+            <h1>jQuery</h1>
+            <p>A Js library for developing web pages</p>
+            <button class="btnn">learn jQuery</button>
+          </div>
+          <div class="grid3">
+            <h1>Java</h1>
+             <p>A programming language</p>
+             <button class="btnn">Learn java</button>  
+        </div>
+        <div class="grid4">
+          <h1>C++</h1> 
+          <p>A programming language</p>
+          <button class="btnn">Learn C++</button> 
+          </div>
+          <div class="grid5">
+            <h1>W3.CSS</h1>
+            <P>A css framework for faster and better responsive web pages</P>
+             <button class="btnn">Learn W3.CSS</button>  
+             </div> 
+             <div class="grid6">
+              <h1>Bootstrap</h1>
+              <P>A css framework for designing better web pages</P>
+               <button class="btnx">Learn Learn Bootstrap</button>  
+               </div> 
+             <div class="C">
+              <h3>C</h3>
+             </div>     
+             <div class="Csharp">
+              <h3>C#</h3>
+             </div>  
+           
+      </div>
+      <div class="grids2">
+        <div class="color1">
+          <h2>R</h2>
+         </div>
+         <div class="color2">
+          <h2>Kotlin</h2>
+         </div>
+         <div class="color3">
+          <h2>Node.js</h2>
+         </div>
+         <div class="color4">
+          <h2>React</h2>
+         </div>
+         <div class="color5">
+          <h2>JSON</h2>
+         </div>
+         <div class="color1">
+          <h2>Vue</h2>
+         </div>
+         <div class="color2">
+          <h2>MySQL</h2>
+         </div>
+         <div class="color3">
+          <h2>XML</h2>
+         </div>
+         <div class="color4">
+          <h2>Sass</h2>
+         </div>
+         <div class="color5">
+          <h2>Icons</h2>
+         </div>
+         <div class="color1">
+          <h2>RWD</h2>
+         </div>
+         <div class="color2">
+          <h2>Graphics</h2>
+         </div>
+         <div class="color3">
+          <h2>SVG</h2>
+         </div>
+         <div class="color4">
+          <h2>Canvas</h2>
+         </div>
+         <div class="color5">
+          <h2>Raspberry Pi</h2>
+         </div>
+         <div class="color1">
+          <h2>Cyber Security</h2>
+         </div>
+
+         <div class="color2">
+          <h2>Colors</h2>
+         </div>
+         <div class="color3">
+          <h2>Git</h2>
+         </div>
+         <div class="color4">
+          <h2>Mathplotlib</h2>
+         </div>
+         <div class="color5">
+          <h2>NumPy</h2>
+         </div>
+         <div class="color1">
+          <h2>Pandas</h2>
+         </div>
+         <div class="color2">
+          <h2>SciPy</h2>
+         </div>
+         <div class="color3">
+          <h2>ASP</h2>
+         </div>
+         <div class="color4">
+          <h2>AngularJS</h2>
+         </div>
+         <div class="color5">
+          <h2>AppML</h2>
+         </div>
+         <div class="color1">
+          <h2>Go</h2>
+         </div>
+         <div class="color2">
+          <h2>TypeScript</h2>
+         </div>
+         <div class="color3">
+          <h2>Django</h2>
+         </div>
+         <div class="color4">
+          <h2>MongoDB</h2>
+         </div>
+         <div class="color5">
+          <h2>Statistics</h2>
+         </div>
+         <div class="color1">
+          <h2>Data Science</h2>
+         </div>
+         <div class="color1">
+          <h2>ProstgreSQL</h2>
+         </div>
+         <div class="color3">
+          <h2>HowTo</h2>
+         </div>
+         <div class="color4">
+          <h2>Code Game</h2>
+         </div>
+         <div class="color5">
+          <h2>Spaces</h2>
+         </div>
+         <div class="color2">
+          <h2>Typing Speed</h2>
+         </div>
+       </div>
+       <div class="grids3">
+        <div class="excel">
+          <h2>Excel</h2>
+        </div>
+        <div class="dsa">
+          <h2>DSA-Data Structures and Algorithms</h2>
+        </div>
+        <div class="ml">
+          <h2>Machine Learning</h2>
+        </div>
+        <div class="ai">
+          <h2>Artificial Intelligence</h2>
+        </div>
+        <div class="int">
+          <h2>Introduction to Programming</h2>
+        </div>
+        <div class="bash">
+          <h2>Bash</h2>
+        </div>
+       </div>
+       <div class="lg-page">
+       <h1>Log in<span class="sign-up"> / Sign Up</span></h1>
+       <p>Create a <strong>free</strong> account to track your progress, and get access to more features and learning materials.</p>
+       <img src="/images/signupw3 img.png" alt="sign up image" class="signup-img" /> <br>
+       <button class="signup-btn2">Sign Up for Free</button>
+       </div>
+       <!----------------------CODE EDITOR------------->
+       <div class="code-editor">
+        <h1>Code Editor</h1>
+        <p>with our online code editor, you can edit code and view the result in your browser</p>
+        <img src="/images/codeeditor w3school.gif" alt="code editor image" class="code-editor-img" />
+        <div class="code-editor-btn">
+        <button class="try-front">Try Frontend Editor (HTML/CSS/JS)</button><br>
+        <button class="try-back">Try Backend Editor (Python/PHP/Java/C..)</button>
+        </div>
+       </div>
+       <div class="w3-space">
+        <h1>W3Schools Spaces </h1>
+        <p>If you want to create your own website, check out <span class="w3-space2">W3Schools Spaces</span>.</p>
+        <p class="last-w3space">It is free to use, and does not require any setup:</p>
+        <img src="/images/w3school space.gif" alt="w3school space image" class="w3-space-img" /><br>
+        <button class="learn-more">Learn More</button>
+        </div>
+        <div class="plus-user">
+          <div class="plus-uesr1">
+          <h1>Become a Plus User </h1>
+          </div>
+          <p><span style="color: #FFC0C7;font-size: 23px; font-weight: bold; line-height: 3rem;">And unlock powerful featues:</span></p>
+          <div class="user-paragraph">
+           <p><img src="/images/checkmark for w3.svg" alt="checkmark" class="user-svg">Browse W3Schools without ads</p>
+           <p><img src="/images/checkmark for w3.svg" alt="checkmark" class="user-svg">Build and host Websites</p>
+           <p><img src="/images/checkmark for w3.svg" alt="checkmark" class="user-svg">Unlimited challenges</p>
+           <p><img src="/images/checkmark for w3.svg" alt="checkmark" class="user-svg">Unlimited practice tests</p>
+           <p><img src="/images/checkmark for w3.svg" alt="checkmark" class="user-svg">Get extra credits</p>
+           <p><img src="/images/checkmark for w3.svg" alt="checkmark" class="user-svg">Priority support</p>
+          </div>
+           <button class="learn-more">Learn More</button>
+        </div>
+        <div class="for-teachers">
+          <div class="for-teachers-paragraph">
+          <h1>For Teachers</h1>
+          <p>streamline your teaching:</p>
+          <div class="for-teachers-svg">
+          <p><img src="/images/checkmark for w3.svg" alt="checkmark" class="user-svg">Manage your classroom</p>
+          <p><img src="/images/checkmark for w3.svg" alt="checkmark" class="user-svg">Ready-to-use learning materials</p>
+          <p><img src="/images/checkmark for w3.svg" alt="checkmark" class="user-svg">customize study plans</p>
+          <p><img src="/images/checkmark for w3.svg" alt="checkmark" class="user-svg">Track student progress</p>
+          <p><img src="/images/checkmark for w3.svg" alt="checkmark" class="user-svg">Interactive coding challenges</p>      
+          </div>
+          <button class="teacher-btn">Learn More</button>
+          </div>
+          <img src="/images/for teachers.png" alt="for teachers image" class="for-teachers-img" />
+        </div>
+
+        <div class="color-picker">
+          <h1>Color Picker</h1>
+          <h4>W3Schools' famous color picker:</h4>
+          <img src="/images/colorpicker w3 img.png" alt="color picker image" class="color-picker-img"/>
+        </div>
+
+        <div class="code-game">
+          <h1 style="font-size: 48px;">Code Game</h1>
+          <h2>Help the Lynx collect pine cones!</h2>
+          <img src="/images/w3school animation.png" alt="code game image" class="code-game-img" /><br>
+          <button class="code-game-btn">Play Game</button>
+        </div>
+        <div class="quiz">
+        <h2>Exercises and Quizzes</h2>
+        <h4>Test your skills!</h4><br>
+        <div class="quiz-excercise">
+          <button class="exercise-btn">Exercises</button>
+          <button class="quiz-btn">Quizzes</button>
+        </div>
+        </div>
+        <div class="web-template">
+          <h1>Web Templates</h1>
+          <h4>Browse our selection of <strong>free</strong> responsive HTML Templates</h4>
+          <img src="/images/w3css_templates.jpg" alt="web templates image" class="web-templates-img" /><br>
+          <button class="web-templates-btn">Browse Templates</button>
+        </div>
+        <div class="kick-start">
+          <h2>Kickstart your career</h2>
+          <p>Get certified by completing a course</p>
+          <button class="get-started-btn">Get Started</button>
+          <div class="w3svg">
+          <svg id="w3_cert_arrow_default" viewBox="0 0 170 143" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9.7747 42.7064C9.7747 42.7064 19.5575 77.2951 44.4558 84.8113C62.0225 90.1142 81.0061 80.1196 77.791 68.3309C76.0904 62.0955 69.0574 62.4735 65.5106 65.8444C59.1003 71.9368 67.8591 89.7423 77.9205 96.1324C112.816 118.295 161.943 84.5867 161.943 84.5867" stroke="white" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M159.804 93.8429L162.704 84.4917L152.715 80.8293" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+            </div>
+            <div class="w3logo">
+            <svg id="w3_cert_badge_default" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"><defs><style>.cls-1{fill:#04aa6b;}.cls-2{font-size:23px;}.cls-2,.cls-3,.cls-4{fill:#fff;}.cls-2,.cls-3{font-family:RobotoMono-Medium, Roboto Mono;font-weight:500;}.cls-3{font-size:20.08px;}</style></defs><circle class="cls-1" cx="150" cy="150" r="146.47" transform="translate(-62.13 150) rotate(-45)"></circle><text class="cls-2" transform="translate(93.54 63.89) rotate(-29.5)">w</text><text class="cls-2" transform="translate(107.13 56.35) rotate(-20.8)">3</text><text class="cls-2" transform="matrix(0.98, -0.21, 0.21, 0.98, 121.68, 50.97)">s</text><text class="cls-2" transform="translate(136.89 47.84) rotate(-3.47)">c</text><text class="cls-2" transform="translate(152.39 47.03) rotate(5.12)">h</text><text class="cls-2" transform="translate(167.85 48.54) rotate(13.72)">o</text><text class="cls-2" transform="translate(182.89 52.35) rotate(22.34)">o</text><text class="cls-2" transform="matrix(0.86, 0.52, -0.52, 0.86, 197.18, 58.36)">l</text><text class="cls-2" transform="matrix(0.77, 0.64, -0.64, 0.77, 210.4, 66.46)">s</text><text class="cls-3" transform="translate(35.51 186.66) rotate(69.37)"> </text><text class="cls-3" transform="matrix(0.47, 0.88, -0.88, 0.47, 41.27, 201.28)">C</text><text class="cls-3" transform="matrix(0.58, 0.81, -0.81, 0.58, 48.91, 215.03)">E</text><text class="cls-3" transform="matrix(0.67, 0.74, -0.74, 0.67, 58.13, 227.36)">R</text><text class="cls-3" transform="translate(69.16 238.92) rotate(39.44)">T</text><text class="cls-3" transform="matrix(0.85, 0.53, -0.53, 0.85, 81.47, 248.73)">I</text><text class="cls-3" transform="translate(94.94 256.83) rotate(24.36)">F</text><text class="cls-3" transform="translate(109.34 263.09) rotate(16.83)">I</text><text class="cls-3" transform="translate(124.46 267.41) rotate(9.34)">E</text><text class="cls-3" transform="translate(139.99 269.73) rotate(1.88)">D</text><text class="cls-3" transform="translate(155.7 270.01) rotate(-5.58)"> </text><text class="cls-3" transform="translate(171.32 268.24) rotate(-13.06)"> </text><text class="cls-2" transform="translate(187.55 266.81) rotate(-21.04)">.</text><text class="cls-3" transform="translate(203.27 257.7) rotate(-29.24)"> </text><text class="cls-3" transform="translate(216.84 249.83) rotate(-36.75)"> </text><text class="cls-3" transform="translate(229.26 240.26) rotate(-44.15)">2</text><text class="cls-3" transform="translate(240.39 229.13) rotate(-51.62)">0</text><text class="cls-3" transform="translate(249.97 216.63) rotate(-59.17)">2</text><text class="cls-3" transform="matrix(0.4, -0.92, 0.92, 0.4, 257.81, 203.04)">5</text><path class="cls-4" d="M196.64,136.31s3.53,3.8,8.5,3.8c3.9,0,6.75-2.37,6.75-5.59,0-4-3.64-5.81-8-5.81h-2.59l-1.53-3.48,6.86-8.13a34.07,34.07,0,0,1,2.7-2.85s-1.11,0-3.33,0H194.79v-5.86H217.7v4.28l-9.19,10.61c5.18.74,10.24,4.43,10.24,10.92s-4.85,12.3-13.19,12.3a17.36,17.36,0,0,1-12.41-5Z"></path><path class="cls-4" d="M152,144.24l30.24,53.86,14.94-26.61L168.6,120.63H135.36l-13.78,24.53-13.77-24.53H77.93l43.5,77.46.15-.28.16.28Z"></path></svg>
+            </div>
+        </div>
+        <div class="how-to">
+          <h2 style="font-size:60px;font-weight:700" class="textsmaller">How To Section</h2>
+          <h4>Code snippets for HTML, CSS and JavaScript</h4>
+          <h6>For example, how to create a slideshow:</h6>
+          <div class="img-case">
+          <img src="/images/w3_nature_img.jpg" alt="how to image" class="how-to-img" /><br>
+          </div>
+          <div class="how-to2"></div>
+          <button class="how-to-btn">Learn How To</button>
+        </div>
+        <!---footer-->
+        <div class="footer">
+          <div class="footer1">
+            <img src="/images/download-removebg-preview.png" alt="w3school logo" class="footer-logo" />
+            <h5>PLUS</h5>
+            <h5>SPACES</h5>
+            <h5>GET CERTIFIED</h5>
+            <h5>FOR TEACHERS</h5>
+            <h5>FOR BUSINESS</h5>
+            <h5>CONTACT US</h5>
+          </div>
+          <div class="footer2">
+            <div class="reference">
+              <h3>Top Tutorial</h3>
+              <p>HTML Tutorial</p>
+              <p>CSS Tutorial</p>
+              <p>JavaScript Tutorial</p>
+              <p>How To Tutorial</p>
+              <p>SQL Tutorial</p>
+              <p>Python Tutorial</p>
+              <p>W3.CSS Tutorial</p>
+              <p>Bootstrap Tutorial</p>
+              <p>PHP Tutorial</p>
+              <p>Java Tutorial</p>
+              <p>C++ Tutorial</p>
+              <p>jQuery Tutorial</p>
+            </div>
+            <div class="reference">
+              <h3>Top References</h3>
+              <p>HTML Reference</p>
+              <p>CSS Reference</p>
+              <p>JavaScript Reference</p>
+              <p>SQL Reference</p>
+              <p>Python Reference</p>
+              <p>W3.CSS Reference</p>
+              <p>Bootstrap Reference</p>
+              <p>PHP Reference</p>
+              <p>HTML Colors</p>
+              <p>Java Reference</p>
+              <p>Angular Reference</p>
+              <p>jQuery Reference</p>
+              </div>
+             
+           <div class="reference">
+            <h3>Top Examples</h3>
+            <p>HTML Examples</p>
+            <p>CSS Examples</p>
+            <p>JavaScript Examples</p>
+            <p>How To Examples</p>
+            <p>SQL Examples</p>
+            <p>Python Examples</p>
+            <p>W3.CSS Examples</p>
+            <p>Bootstrap Examples</p>
+            <p>PHP Examples</p>
+            <p>Java Examples</p>
+            <p>XML Examples</p>
+            <p>jQuery Examples</p>
+            </div>
+
+            <div class="reference">
+              <h3>Get certified</h3>
+              <p>HTML Certificate</p>
+              <p>CSS Certificate</p>
+              <p>JavaScript Certificate</p>
+              <p>Front End Certificate</p>
+              <p>SQL Certificate</p>
+              <p>Python Certificate</p>
+              <p>PHP Certificate</p>
+              <p>jQuery Certificate</p>
+              <p>Java Certificate</p>
+              <p>C++ Certificate</p>
+              <p>C# Certificate</p>
+              <p>XML Certificate</p>
+            </div>
+          </div>  
+              <div class="footer3">
+                  <div class="social">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M23.5 6.5c-.3-1.3-1.3-2.3-2.6-2.6C18.9 3.5 12 3.5 12 3.5s-6.9 0-8.9.4C1.8 4.2.8 5.2.5 6.5.1 8.5 0 12 0 12s.1 3.5.5 5.5c.3 1.3 1.3 2.3 2.6 2.6C5.1 20.5 12 20.5 12 20.5s6.9 0 8.9-.4c1.3-.3 2.3-1.3 2.6-2.6.4-2 .5-5.5.5-5.5s-.1-3.5-.5-5.5zM9.5 15.5v-7l6 3.5-6 3.5z"/>
+                    </svg>
+                    
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.98 3.5C3.33 3.5 2 4.83 2 6.48s1.33 2.98 2.98 2.98c1.65 0 2.98-1.33 2.98-2.98S6.63 3.5 4.98 3.5zM2.4 8.93H7.6V21H2.4V8.93zM9.5 8.93h4.8v1.63h.07c.67-1.27 2.3-2.61 4.73-2.61 5.05 0 5.98 3.3 5.98 7.6V21H19.3v-6.43c0-1.54-.03-3.52-2.15-3.52-2.16 0-2.49 1.68-2.49 3.41V21H9.5V8.93z"/>
+                    </svg>
+                    
+                    <svg width="24" height="24" viewBox="0 0 245 240" fill="white" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M104.4 104.9c-5.7 0-10.2 4.9-10.2 11s4.6 11 10.2 11 10.2-4.9 10.2-11c.1-6-4.5-11-10.2-11zm36.2 0c-5.7 0-10.2 4.9-10.2 11s4.6 11 10.2 11 10.2-4.9 10.2-11c.1-6-4.5-11-10.2-11z"/>
+                      <path d="M222.2 0H22.8C10.2 0 0 10.2 0 22.8v194.4C0 229.8 10.2 240 22.8 240h167.8l-7.9-27.5 18.9 17.6 17.8 16.4L245 240V22.8C245 10.2 234.8 0 222.2 0zM163.1 168s-5.1-6.1-9.4-11.5c18.7-5.3 25.8-17 25.8-17-5.9 3.9-11.5 6.6-16.5 8.5-7.2 3-14.1 5-20.8 6.1-13.8 2.6-26.4 1.9-37.4-.1-8.2-1.5-15.2-3.8-21-6.1-3.3-1.2-7-3-10.6-5.1-.4-.2-.8-.3-1.2-.5-.3-.2-.5-.3-.6-.4-2.6-1.4-4-2.4-4-2.4s6.8 11.3 24.7 16.7c-4.3 5.4-9.5 11.8-9.5 11.8-31.3-1-43.2-21.5-43.2-21.5 0-45.5 20.3-82.4 20.3-82.4C72.3 55.4 90 55 90 55l1 1.2c-24.4 7-35.7 17.7-35.7 17.7s3-1.7 8.1-4c14.7-6.5 26.4-8.3 31.2-8.7.8-.1 1.5-.2 2.3-.2 8.2-1.1 17.5-1.4 27.2-.3 12.7 1.5 26.3 5.5 40.2 13.5 0 0-10.7-10.2-33.8-17.2l1.4-1.6s17.7-.4 35.3 13.3c0 0 20.3 36.9 20.3 82.4.1 0-12 20.5-43.4 21.5z"/>
+                    </svg>
+                    
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M22.675 0H1.325C.593 0 0 .594 0 1.326v21.348C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.127V8.408c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.464.099 2.796.143v3.24h-1.918c-1.505 0-1.796.716-1.796 1.763v2.313h3.59l-.467 3.622h-3.123V24h6.116C23.407 24 24 23.407 24 22.674V1.326C24 .594 23.407 0 22.675 0z"/>
+                    </svg>
+                    
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M7.75 2h8.5A5.76 5.76 0 0 1 22 7.75v8.5A5.76 5.76 0 0 1 16.25 22h-8.5A5.76 5.76 0 0 1 2 16.25v-8.5A5.76 5.76 0 0 1 7.75 2zm0 2A3.75 3.75 0 0 0 4 7.75v8.5A3.75 3.75 0 0 0 7.75 20h8.5A3.75 3.75 0 0 0 20 16.25v-8.5A3.75 3.75 0 0 0 16.25 4h-8.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm5.5-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                    </svg>
+                    
+                  </div>
+                  <div class="navs">
+                  <h4>FORUM</h4>
+                  <h4>ABOUT</h4>
+                  <h4>ACADEMY</h4>
+                 </div>
+              </div>
+             <div class="copywrite-text">    
+         <P>W3Schools is optimized for learning and training .Example might be simplified to improve reading and learning. Tutorials, references,and examples are constantly reviewed to avoid errors,but we cannit warrant full correctness of all content.while usingW3Schools,you agree to have read and accepted our <span class="terms">terms of use,cookie and privacy policy.</span></P>
+         <p><span class="terms">copyright 1999-2005</span> by refsnes Data.All Rights Reserved.<span class="terms">W3Schools is powered by W3.CSS.</span></p>  
+         </div>    
+        </div>
+  </body>
+</html>
