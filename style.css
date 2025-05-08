@@ -2322,7 +2322,9 @@ h6 {
     display: none;
   }
 .how-to{
+  height: fit-content;
   padding-top: 2rem;
+  padding-bottom: 2rem;
 }
   .how-to h4 {
     font-weight: 600;
