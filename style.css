@@ -2005,6 +2005,7 @@ h6 {
   body {
     font-size: 13px;
     font-family: 'Source Sans Pro', sans-serif;
+    overflow-x: hidden;
   }
   .nav {
     display: flex;
